@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 def initialize_driver():
-    chromedriver_path = '/Users/owenma/Desktop/527final/chromedriver'
+    chromedriver_path = '/Users/owenma/Desktop/527final/profile/chromedriver'
     service = webdriver.chrome.service.Service(chromedriver_path)
     options = webdriver.ChromeOptions()
     # Loading profile
