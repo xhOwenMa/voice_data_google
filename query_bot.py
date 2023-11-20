@@ -8,6 +8,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 def initialize_driver():
     chromedriver_path = '/Users/owenma/Desktop/527final/chromedriver'
     service = webdriver.chrome.service.Service(chromedriver_path)
