@@ -3,7 +3,7 @@ See the [project report]() for more details.
 
 ---
 
-### Instructions
+## Instructions
 
 `query_bot.py` is the script we used to generate the profiles.
 
