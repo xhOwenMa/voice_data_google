@@ -136,14 +136,13 @@ def main():
     # time.sleep(30)  # Allow time for manual sign in
     bot.switch_to_new_window()  # switch to the new signed in window
 
-    queries = read_queries_from_file('queries.txt')
+    queries = read_queries_from_file('YOUR_FILE.txt')
     for query in queries:
         print(f"Processing query: '{query}'")
         bot.perform_google_search(query)
 
-        # links = bot.driver.find_elements(By.XPATH, "//a[@jsname='UWckNb']")
         # Wait for links to be present and retrieve them
-        links_xpath = "//a[@jsname='UWckNb']"
+        links_xpath = " "  # inspect the HTML DOM to determine the class
         links = bot.wait_for_links_and_get_them(links_xpath)
         print(f"found {len(links)} links")
 

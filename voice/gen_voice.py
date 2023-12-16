@@ -19,11 +19,11 @@ def process_text_file(file_path):
             line = line.strip()  # Remove any leading/trailing whitespace
             if line:  # Check if the line is not empty
                 # Generate a unique file name for each entry
-                voice_file_path = Path(__file__).parent / f"tina_voice/speech_{index+1}.mp3"
+                voice_file_path = Path(__file__).parent / f"NAME_YOUR_FILE.mp3"
                 generate_voice(line, voice_file_path)
                 print(f"Generated speech for line {index+1}")
 
 
 # Path to the text file containing the text entries
-text_file_path = Path(__file__).parent / "tina_voice/voice_prompts.txt"
+text_file_path = Path(__file__).parent / "NAME_YOUR_FILE.txt"
 process_text_file(text_file_path)

@@ -1,0 +1,14 @@
+Hey Google, remind me to email the school committee at 2 PM tomorrow.
+Hey Google, cancel my reminder to email the school committee.
+Hey Google, play some classical music.
+Hey Google, stop the music.
+Hey Google, set a timer for 15 minutes.
+Hey Google, cancel the timer.
+Hey Google, add eggs to my shopping list.
+Hey Google, remove eggs from my shopping list.
+Hey Google, set an alarm for 6:30 AM.
+Hey Google, cancel my 6:30 AM alarm.
+Hey Google, add parent-teacher meeting to my calendar for next Friday at 3 PM.
+Hey Google, cancel the parent-teacher meeting event on my calendar.
+Hey Google, how do I make a veggie lasagna?
+Hey Google, stop the recipe.
